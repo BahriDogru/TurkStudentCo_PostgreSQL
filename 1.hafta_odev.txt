@@ -1,0 +1,17 @@
+ -- Bütün tobloyu getirme
+select * from employees;
+
+ -- from ile employees tablosundan first_name, last_name, salary sütunlarını getirme.
+select first_name, last_name, salary from employees;
+
+--Distinct komutu ile çalışanların çalıştıkları departmanları benzersiz olarak listeleyen SQL sorgusu.
+select distinct department_id from employees;
+
+-- where şartı kullanrak sadece IT departmanında çalışanların bilgilerini getiren SQL sorgusu.
+select * from employees where department_id = 6;
+
+-- order by ile sıralayarak ve desc diyerek çalışanları maaşlarına göre büyükten küçüğe sıralayan bir SQL sorgusu.
+select * from employees order by salary desc;
+
+-- first_name ve last_name kolonlarını birleştirme (Concatenation), burada "as" kullanarak yeni oluşturulan kolona isim verildi. 
+select first_name ||' '|| last_name as Name_Surname from employees;
