@@ -4,17 +4,6 @@ This repository contains the SQL assignments and final project I completed as pa
 
 In addition to the assignments provided during the program, I have also included extra practice exercises and projects that I developed independently to reinforce my learning.
 
-## Contents
-
-- **Bootcamp Assignments**  
-  All official bootcamp assignments are included in this repository, structured in separate folders. Each assignment focuses on different SQL concepts and database design patterns.
-
-- **Additional Practice Projects**  
-  Projects and exercises I created outside of the bootcamp for extra practice. These projects are based on real-world scenarios and involve writing queries and building small-scale databases.
-
-- **Final Project: Online Education Platform Database Design**  
-  The capstone project of the bootcamp, which involves designing the complete database structure for an online education platform.
-
 ## Final Project Overview
 
 In the final project, I designed a relational database schema for an online learning platform. The system supports users who can register, enroll in courses, earn certificates, and publish blog posts.
@@ -29,9 +18,7 @@ The project includes:
 
 The following image shows the structure of the final project database, including all tables and relationships:
 
-![Database Schema](./schema.png)
-
-*Note: Please ensure that the `schema.png` file is located in the root directory of the repository.*
+![Database Schema](Final_Project/schema.png)
 
 ## Technologies Used
 
